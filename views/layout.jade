@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/semantic.min.css')
+
+  body
+    header
+  .ui.center.aligned.container
+    h1.ui.icon.header
+      i.angellist.icon
+        .content
+         a(href="/") helloBrandon 
+        .sub.header Bespoke Web Development
+  .ui.attached.stackable.menu
+    .ui.container
+      .three.ui.buttons
+        a.item
+          span
+            .ui.inverted.red.button 
+             a(href="/library") Library
+        a.item
+          span
+            .ui.inverted.violet.button 
+             a(href="/about") Current Projects
+        a.item
+          span
+            .ui.inverted.green.button 
+             a(href="/contact") Contact
+ .ui.text.container
+  .main-content
+      block content
+  .sidebar
+      block sidebar
+
+  form.ui.large.form.container
+  .ui.stacked.segment
+.ui.inverted.vertical.footer.segment.form-page
+  .ui.container
+    | helloBrandon 2016. All Rights Reserved
+  script(src='//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
+  script(src='/javascripts/semantic.min.js')
+ 

@@ -1,0 +1,25 @@
+extend layout
+
+script.
+  alert('hello')
+block content
+ .ui.center.aligned.container
+ h1.class.ui.center.aligned.icon.header
+  i.class.circular.mail.outline.icon 
+  .ui.inverted.segment
+   .ui.inverted.form
+      .field
+       label Name
+       input(type="text", placeholder="Name")
+      .field
+       label Email
+       input(type="email", placeholder="Email")
+      .field
+       label Subject
+       input(type="text", placeholder="Subject")
+      .field
+       label Message
+       textarea
+    .ui.inverted.black.submit.button Submit
+
+
